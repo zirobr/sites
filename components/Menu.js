@@ -4,16 +4,16 @@ import SwipeableDrawer from '@material-ui/core/SwipeableDrawer';
 import Button from '@material-ui/core/Button';
 import List from '@material-ui/core/List';
 import Divider from '@material-ui/core/Divider';
-import ListItem from '@material-ui/core/ListItem';
-import ListItemIcon from '@material-ui/core/ListItemIcon';
-import ListItemText from '@material-ui/core/ListItemText';
-import InboxIcon from '@material-ui/icons/MoveToInbox';
-import MailIcon from '@material-ui/icons/Mail';
 import Link from '../src/Link';
+import Grid from '@material-ui/core/Grid';
+import Typography from '@material-ui/core/Typography';
+
 
 const useStyles = makeStyles({
   list: {
     width: 250,
+    backgroundColor: '#000000',
+    margin: '15px'
   },
   fullList: {
     width: 'auto',
@@ -46,47 +46,71 @@ export default function SwipeableTemporaryDrawer() {
       onClick={toggleDrawer(anchor, false)}
       onKeyDown={toggleDrawer(anchor, false)}
     >
+        <Typography variant="h6" className={classes.title}>
+              <Link href="/" color="primary" >
+                MARCAS
+              </Link>
+            </Typography>
+      <Divider />
       <List >
-      <Button color="inherit">
+      <Grid container spacing={1}>
+        <Grid item xs={12}>
+            <Button color="inherit">
               <Link href="/salgunamu" color="secondary">
-                Salgunamu
+               Salgunamu
               </Link>
             </Button>
+        </Grid>
+        <Grid item xs={12}>
             <Button color="inherit">
               <Link href="/annefernandes" color="secondary">
                 Anne Fernandes
               </Link>
             </Button>
-            <Button color="inherit">
+        </Grid>
+        <Grid item xs={12}>
+        <Button color="inherit">
               <Link href="/closetdeluxe" color="secondary">
                 Closet Deluxe
               </Link>
             </Button>
-            <Button color="inherit">
+        </Grid>   
+        <Grid item xs={12}>
+        <Button color="inherit">
               <Link href="/villon" color="secondary">
                 Villon
               </Link>
             </Button>
-            <Button color="inherit">
+        </Grid>
+        <Grid item xs={12}>
+        <Button color="inherit">
               <Link href="/papaya" color="secondary">
                 Papaya
               </Link>
             </Button>
-            <Button color="inherit">
+        </Grid>
+        <Grid item xs={12}>
+        <Button color="inherit">
               <Link href="/crisfael" color="secondary">
                 Crisfael
               </Link>
             </Button>
-            <Button color="inherit">
+        </Grid>
+        <Grid item xs={12}>
+        <Button color="inherit">
               <Link href="/bmbolsas" color="secondary">
                 BM Bolsas
               </Link>
             </Button>
-            <Button color="inherit">
+        </Grid>
+        <Grid item xs={12}>
+        <Button color="inherit">
               <Link href="/bebela" color="secondary">
                 Bebela
               </Link>
             </Button>
+        </Grid>     
+        </Grid>
       </List>
       {/* <Divider />
       <List>

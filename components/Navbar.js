@@ -7,8 +7,10 @@ import PropTypes from 'prop-types';
 import Link from '../src/Link';
 import useScrollTrigger from '@material-ui/core/useScrollTrigger';
 import Button from '@material-ui/core/Button';
+import Menu from '../components/Menu';
 import IconButton from '@material-ui/core/IconButton';
 // import MenuIcon from '@material-ui/icons/Menu';
+
 
 const useStyles = makeStyles((theme) => ({
   menuButton: {
@@ -47,48 +49,11 @@ const Navbar = (props) => {
           <Toolbar>
             {/* <CameraIcon className={classes.icon} /> */}
             <Typography variant="h6" className={classes.title}>
-            {title}
+              <Link href="/" color="textPrimary" >
+                {title}
+              </Link>
             </Typography>
-            <Button color="inherit">
-              <Link href="/salgunamu" color="secondary">
-                Salgunamu
-              </Link>
-            </Button>
-            <Button color="inherit">
-              <Link href="/annefernandes" color="secondary">
-                Anne Fernandes
-              </Link>
-            </Button>
-            <Button color="inherit">
-              <Link href="/closetdeluxe" color="secondary">
-                Closet Deluxe
-              </Link>
-            </Button>
-            <Button color="inherit">
-              <Link href="/villon" color="secondary">
-                Villon
-              </Link>
-            </Button>
-            <Button color="inherit">
-              <Link href="/papaya" color="secondary">
-                Papaya
-              </Link>
-            </Button>
-            <Button color="inherit">
-              <Link href="/crisfael" color="secondary">
-                Crisfael
-              </Link>
-            </Button>
-            <Button color="inherit">
-              <Link href="/bmbolsas" color="secondary">
-                BM Bolsas
-              </Link>
-            </Button>
-            <Button color="inherit">
-              <Link href="/bebela" color="secondary">
-                Bebela
-              </Link>
-            </Button>
+            <Menu />
           </Toolbar>
         </AppBar>
       </ElevationScroll>
