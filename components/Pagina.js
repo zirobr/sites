@@ -12,7 +12,7 @@ const Pagina = (props) => {
 
     return (
         <>
-          {/* <Pixel name='FACEBOOK_PIXEL_1' /> */}
+          <Pixel name='FACEBOOK_PIXEL_1' />
           <Navbar title="ZIRO" />  
           <Container maxWidth="xl" disableGutters>
               <Hero heroTitle={heroTitle}/>

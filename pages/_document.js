@@ -1,7 +1,6 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document';
 import { ServerStyleSheets } from '@material-ui/core/styles';
 import theme from '../src/theme';
-import Pixel from '../components/Pixel';
 
 export default class MyDocument extends Document {
   render() {
@@ -14,7 +13,7 @@ export default class MyDocument extends Document {
             rel="stylesheet"
             href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
           />
-          <Pixel name='FACEBOOK_PIXEL_1' />
+          <link rel="shortcut icon" href="https://res.cloudinary.com/ziro/image/upload/v1583861558/favicon.png" type="image/x-icon" />
         </Head>
         <body>
           <Main />
