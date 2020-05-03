@@ -16,16 +16,7 @@ export default class MyDocument extends Document {
           <link rel="shortcut icon" href="https://res.cloudinary.com/ziro/image/upload/v1583861558/favicon.png" type="image/x-icon" />
           <script
             dangerouslySetInnerHTML={{
-              __html: `<!-- Global site tag (gtag.js) - Google Analytics -->
-              <script async src="https://www.googletagmanager.com/gtag/js?id=UA-164247072-1"></script>
-              <script>
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-              
-                gtag('config', 'UA-164247072-1');
-              </script>
-              <!-- Facebook Pixel Code -->
+              __html: `
               <script>
                 !function(f,b,e,v,n,t,s)
                 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -41,7 +32,6 @@ export default class MyDocument extends Document {
               <noscript><img height="1" width="1" style="display:none"
                 src="https://www.facebook.com/tr?id=1008325152564716&ev=PageView&noscript=1"
               /></noscript>
-              <!-- End Facebook Pixel Code -->
               `
             }}
           />
