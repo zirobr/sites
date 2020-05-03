@@ -1,0 +1,21 @@
+{
+  "name": "template-next",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Ronaldo Lima",
+  "scripts": {
+    "dev": "next",
+    "build": "next build && next export",
+    "start": "next start",
+    "post-update": "echo \"codesandbox preview only, need an update\" && yarn upgrade --latest"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.9.12",
+    "clsx": "latest",
+    "material-ui-icons": "latest",
+    "next": "latest",
+    "prop-types": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  }
+}
