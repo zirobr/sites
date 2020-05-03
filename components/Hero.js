@@ -18,12 +18,15 @@ const useStyles = makeStyles((theme) => ({
       backgroundImage: 'url('+fundo+')',
       backgroundSize: 'cover',
       background: 'secondary',
-      height: '80Vh',
+      minHeight: '85Vh',
       display: "flex",
       flexDirection: "column",
       justifyContent: "center",
       opacity: '0.8'
      
+    },
+    heroContent: {
+      padding: theme.spacing(8, 0, 6),
     },
     heroButtons: {
       marginTop: theme.spacing(4),
@@ -36,7 +39,7 @@ const Hero = (props) => {
 
     return(
           <div className={classes.heroBackground}>
-              <Container maxWidth="md">
+              <Container className={classes.heroContent} maxWidth="sm">
                 <Typography component="h1" variant="h2" align="center" color="primary" gutterBottom>
                   Compre {heroTitle} no APP da Ziro
                 </Typography>

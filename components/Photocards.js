@@ -24,7 +24,7 @@ const useStyles = makeStyles((theme) => ({
       flexDirection: 'column',
     },
     cardMedia: {
-      paddingTop: '106.25%', // 16:9
+      paddingTop: '116.25%', // 16:9
     },
     cardContent: {
       flexGrow: 1,
@@ -47,20 +47,20 @@ const Photocards = (props) => {
                     title="Image title"
                 />
                 <CardContent className={classes.cardContent}>
-                    <Typography gutterBottom variant="h5" component="h2">
+                    {/* <Typography gutterBottom variant="h5" component="h2">
                       {card[75]+card[76]+card[77]+card[78]}
-                    </Typography>
+                    </Typography> */}
 
                     <Typography>
-                    Acesse para ver precos
+                    Compre para Revender
                     </Typography>
                 </CardContent>
                 <CardActions>
-                    <Button size="small" color="secondary">
-                    VER MARCA
+                    <Button size="small" color="textPrimary">
+                    VER MARCAS
                     </Button>
                     <Button size="small" color="secondary">
-                    COMPRAR
+                    CADASTRAR
                     </Button>
                 </CardActions>
               </Card>
