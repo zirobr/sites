@@ -1,6 +1,6 @@
 import Head  from 'next/head'
 
-import FACEBOOK_PIXEL_1 from '../analytics/pixel-1'
+import FACEBOOK_PIXEL_1 from '../../analytics/pixel-1'
 
 export default ({name}) => {
 
