@@ -1,7 +1,7 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document';
 import { ServerStyleSheets } from '@material-ui/core/styles';
 import theme from '../src/theme';
-import Pixel from '../components/Pixel'
+import Pixel from '../components/Pixel';
 
 export default class MyDocument extends Document {
   render() {
@@ -14,7 +14,7 @@ export default class MyDocument extends Document {
             rel="stylesheet"
             href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
           />
-          <Pixel />
+          <Pixel name='FACEBOOK_PIXEL_1' />
         </Head>
         <body>
           <Main />
