@@ -64,6 +64,31 @@ const Navbar = (props) => {
                 Anne Fernandes
               </Link>
             </Button>
+            <Button color="inherit">
+              <Link href="/closetdeluxe" color="secondary">
+                Closet Deluxe
+              </Link>
+            </Button>
+            <Button color="inherit">
+              <Link href="/villon" color="secondary">
+                Villon
+              </Link>
+            </Button>
+            <Button color="inherit">
+              <Link href="/papaya" color="secondary">
+                Papaya
+              </Link>
+            </Button>
+            <Button color="inherit">
+              <Link href="/crisfael" color="secondary">
+                Crisfael
+              </Link>
+            </Button>
+            <Button color="inherit">
+              <Link href="/bmbolsas" color="secondary">
+                BM Bolsas
+              </Link>
+            </Button>
           </Toolbar>
         </AppBar>
       </ElevationScroll>
