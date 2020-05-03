@@ -5,7 +5,6 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 import theme from '../src/theme';
 import Navbar from '../components/Navbar';
 import index from '../textos/index.json';
-import Pixel from '../components/Pixel'
 
 export default function MyApp(props) {
   const { Component, pageProps } = props;
@@ -24,7 +23,6 @@ export default function MyApp(props) {
         <title>ZIRO</title>
         <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
       </Head>
-      <Pixel name='FACEBOOK_PIXEL_1' />
       <ThemeProvider theme={theme}>
         {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
         <CssBaseline />
