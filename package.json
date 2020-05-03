@@ -11,11 +11,15 @@
   },
   "dependencies": {
     "@material-ui/core": "^4.9.12",
+    "@material-ui/icons": "^4.9.1",
     "clsx": "latest",
+    "markdown-to-jsx": "^6.11.1",
     "material-ui-icons": "latest",
     "next": "latest",
     "prop-types": "latest",
+    "raw-loader": "^4.0.1",
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "react-markdown": "^4.3.1"
   }
 }

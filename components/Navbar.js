@@ -50,11 +50,6 @@ const Navbar = (props) => {
             {title}
             </Typography>
             <Button color="inherit">
-              <Link href="/about" color="secondary">
-                Sobre
-              </Link>
-            </Button>
-            <Button color="inherit">
               <Link href="/salgunamu" color="secondary">
                 Salgunamu
               </Link>
