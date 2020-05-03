@@ -56,7 +56,7 @@ const Photocards = (props) => {
                     </Typography>
                 </CardContent>
                 <CardActions>
-                    <Button size="small" color="textPrimary">
+                    <Button size="small" color="secondary">
                     VER MARCAS
                     </Button>
                     <Button size="small" color="secondary">
