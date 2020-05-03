@@ -84,6 +84,11 @@ const Navbar = (props) => {
                 BM Bolsas
               </Link>
             </Button>
+            <Button color="inherit">
+              <Link href="/bebela" color="secondary">
+                Bebela
+              </Link>
+            </Button>
           </Toolbar>
         </AppBar>
       </ElevationScroll>

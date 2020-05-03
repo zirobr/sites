@@ -1,20 +1,14 @@
-# Sample blog post
+# Novidades e Tendências
 
-#### April 1, 2020 by [Olivier](/)
+## Encontrar novidades e tendências de moda feminina nas lojas de atacado do Bom Retiro é uma saga. Por isso, toda semana subimos 70 novos looks para orientar suas compras.
 
-This blog post shows a few different types of content that are supported and styled with
-Material styles. Basic typography, images, and code are all supported.
-You can extend these by modifying `Markdown.js`.
+#### Daniela Miconi, 09/03/2020
 
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
-Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
+As lojas de atacado do Bom Retiro são o foco principal das revendedoras antenadas. A moda muda muito rápido e, consequentemente, as vendas também. Então, use nosso app para ver looks, conhecer novas marcas de atacado e comprar online sem dificuldades! Acesse aqui
 
-Curabitur blandit tempus porttitor. **Nullam quis risus eget urna mollis** ornare vel eu leo.
-Nullam id dolor id nibh ultricies vehicula ut id elit.
+Tem dúvida sobre como comprar no atacado? Não sabe por onde começar? Acesse nosso app de catálogo para ver preços, grades e separar peças para comprar online.
 
-Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum.
-Aenean lacinia bibendum nulla sed consectetur.
+Quer começar a separar? **Clique aqui**
 
 ## Heading
 
