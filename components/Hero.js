@@ -5,6 +5,7 @@ import Typography from '@material-ui/core/Typography';
 import Container from '@material-ui/core/Container';
 import { makeStyles } from '@material-ui/core/styles';
 import PropTypes from 'prop-types';
+import Link from '../src/Link';
 
 const fundo = "https://ziro.com.br/images/capa.jpg"
 //const fundo = "https://images.unsplash.com/photo-1469334031218-e382a71b716b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
@@ -50,12 +51,16 @@ const Hero = (props) => {
                   <Grid container spacing={2} justify="center">
                     <Grid item>
                       <Button variant="contained" color="primary">
-                        VER MARCAS
+                      <Link href="/" color="inherit" >
+                      VER MARCAS
+                      </Link>  
                       </Button>
                     </Grid>
                     <Grid item>
                       <Button variant="outlined" color="primary">
-                        ACESSAR O APP
+                      <Link href="/blog" color="inherit" >
+                      BLOG
+                      </Link>
                       </Button>
                     </Grid>
                   </Grid>
