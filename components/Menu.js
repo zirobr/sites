@@ -139,6 +139,7 @@ export default function SwipeableTemporaryDrawer() {
         <React.Fragment key={anchor}>
           <Button onClick={toggleDrawer(anchor, true)}>VER MARCAS</Button>
           <SwipeableDrawer
+            
             anchor={anchor}
             open={state[anchor]}
             onClose={toggleDrawer(anchor, false)}

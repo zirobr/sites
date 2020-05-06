@@ -1,11 +1,11 @@
 import Pagina from '../components/Pagina';
-import textos from '../textos/annefernandes.json';
+import textos from '../textos/loubucca.json';
 
-
-const Annefernandes = () => {
+const Loubucca = () => {
+  
   return (
     <Pagina title={textos.title} heroTitle={textos.heroTitle} linkfotos={textos.fotos}></Pagina>
   );
 }
 
-export default Annefernandes
+export default Loubucca
