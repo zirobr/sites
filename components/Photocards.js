@@ -9,6 +9,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import PropTypes from 'prop-types';
 import Link from '../src/Link';
+import LazyLoad from 'react-lazy-load';
 
 import index from '../textos/index.json';
 
@@ -42,12 +43,14 @@ const Photocards = (props) => {
             {linkfotos.map((card) => (    
             <Grid item key={card} xs={12} sm={6} md={4}>
               <Card className={classes.card}>
+              <LazyLoad>
                 <CardMedia
                     className={classes.cardMedia}
                     image={card}
                     title="Image title"
                     src="https://catalogo.ziro.app/galeria"
                 />
+                </LazyLoad>
                 <CardContent className={classes.cardContent}>
                     {/* <Typography gutterBottom variant="h5" component="h2">
                       {card[75]+card[76]+card[77]+card[78]}
