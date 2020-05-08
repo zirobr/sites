@@ -7,8 +7,8 @@ import { makeStyles } from '@material-ui/core/styles';
 import PropTypes from 'prop-types';
 import Link from '../src/Link';
 
-const fundo = "https://ziro.com.br/images/capa.jpg"
-//const fundo = "https://images.unsplash.com/photo-1469334031218-e382a71b716b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
+const fundo = "https://res.cloudinary.com/ziro-br/image/upload/f_auto,q_auto:good,w_800,c_scale/v1588911974/home/capa-anne_sxuapy.jpg"
+
 const useStyles = makeStyles((theme) => ({
     icon: {
       marginRight: theme.spacing(2),
@@ -45,21 +45,21 @@ const Hero = (props) => {
                   Compre {heroTitle} no APP da Ziro
                 </Typography>
                 <Typography variant="h5" align="center" color="primary" paragraph>
-                  Acompanhe os lançamentos em nosso APP exclusivo
+                  Parcele Sem Juros no Cartão
                 </Typography>
                 <div className={classes.heroButtons}>
                   <Grid container spacing={2} justify="center">
                     <Grid item>
-                      <Button variant="contained" color="primary">
-                      <Link href="/" color="inherit" >
-                      VER MARCAS
-                      </Link>  
+                    <Button variant="contained"  color="primary">
+                      <Link href="https://catalogo.ziro.app/galeria" color="inherit" >
+                      CATÁLOGO
+                      </Link>
                       </Button>
                     </Grid>
                     <Grid item>
                       <Button variant="outlined" color="primary">
-                      <Link href="/blog" color="inherit" >
-                      BLOG
+                      <Link href="https://catalogo.ziro.app/cadastrar" color="inherit" >
+                      CADASTRAR
                       </Link>
                       </Button>
                     </Grid>
