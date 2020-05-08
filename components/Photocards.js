@@ -8,6 +8,7 @@ import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import PropTypes from 'prop-types';
+import Link from '../src/Link';
 
 import index from '../textos/index.json';
 
@@ -45,6 +46,7 @@ const Photocards = (props) => {
                     className={classes.cardMedia}
                     image={card}
                     title="Image title"
+                    src="https://catalogo.ziro.app/galeria"
                 />
                 <CardContent className={classes.cardContent}>
                     {/* <Typography gutterBottom variant="h5" component="h2">
@@ -52,15 +54,21 @@ const Photocards = (props) => {
                     </Typography> */}
 
                     <Typography>
-                    Compre para Revender
+                      <Link href="https://catalogo.ziro.app/galeria" color="inherit" >
+                        Acesse o catálogo para ver os Preços
+                      </Link>
                     </Typography>
                 </CardContent>
                 <CardActions>
-                    <Button size="small" color="secondary">
-                    VER MARCAS
+                    <Button size="small" color="textPrimary">
+                    <Link href="https://catalogo.ziro.app/galeria" color="inherit" >
+                      VER MARCAS
+                    </Link>
                     </Button>
-                    <Button size="small" color="secondary">
-                    CADASTRAR
+                    <Button size="small" color="textPrimary">
+                    <Link href="https://catalogo.ziro.app/cadastrar" color="inherit" >
+                      CADASTRAR
+                      </Link>
                     </Button>
                 </CardActions>
               </Card>

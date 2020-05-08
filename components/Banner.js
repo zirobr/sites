@@ -3,6 +3,7 @@ import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import Container from '@material-ui/core/Container';
 import { makeStyles } from '@material-ui/core/styles';
+import Link from '../src/Link';
 import index from '../textos/index.json';
 
 const useStyles = makeStyles((theme) => ({
@@ -35,7 +36,9 @@ const Banner = () => {
               <Grid container spacing={2} justify="center">
                 <Grid item>
                   <Button variant="contained" color="primary">
-                    { index.botao }
+                    <Link href="https://catalogo.ziro.app/galeria" color="inherit" >
+                      { index.botao }
+                    </Link>
                   </Button>
                 </Grid>
               </Grid>
