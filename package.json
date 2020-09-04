@@ -13,7 +13,7 @@
     "@material-ui/core": "^4.9.12",
     "@material-ui/icons": "^4.9.1",
     "clsx": "latest",
-    "markdown-to-jsx": "^6.11.1",
+    "markdown-to-jsx": "^6.11.4",
     "material-ui-icons": "latest",
     "next": "latest",
     "prop-types": "latest",
